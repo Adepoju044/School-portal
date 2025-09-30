@@ -38,8 +38,13 @@ function App() {
         items={listItem}
         cancel={cancel}
       />
-      <Header />
-      <div className="flex justify-center items-center  overflow-hidden fixed left-1/2">
+      <div className="fixed top-0 left-0 right-0 z-10">
+        <Header />
+      </div>
+      <div
+        className="flex justify-center items-start h-full overflow-auto"
+        style={{ paddingTop: "64px" }}
+      >
         <div className="components w-full md:w-[600px] bg-[#fff] mx-auto min-h-[560px] md:min-h-[580px] shadow-lg fixed top-[15%]">
           <Form addItem={addItem} />
           <Section />
