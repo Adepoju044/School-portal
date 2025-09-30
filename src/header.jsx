@@ -6,7 +6,7 @@ function Header() {
         style={{ marginTop: "20px" }}
       >
         <img
-          src="public/img/school-logo.png"
+          src="/img/school-logo.png"
           alt="school-logo"
           className="w-20 h-20"
         ></img>
