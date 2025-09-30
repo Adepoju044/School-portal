@@ -57,7 +57,7 @@ export default function Edit({
             Cancel
           </button>
           <button
-            className="px-4 py-2 bg-blue-600 text-white  w-[110px] h-[35px] rounded font-bold hover:bg-blue-800 transition-all duration-300 hover:translate-y-[2px] cursor-pointer"
+            className="px-4 py-2 bg-blue-600 text-white  w-[120px] h-[35px] rounded font-bold hover:bg-blue-800 transition-all duration-300 hover:translate-y-[2px] cursor-pointer"
             onClick={() => handleSave(selectedStudent)}
           >
             Save Changes
