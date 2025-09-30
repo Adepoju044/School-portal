@@ -29,7 +29,7 @@ function App() {
     setSelectedStudent(false);
   }
   return (
-    <div className="container bg-gray-200 min-h-screen w-[100%]">
+    <div className="container bg-gray-200 min-h-screen w-full">
       <Edit
         isEditing={isEditing}
         selectedStudent={selectedStudent}
@@ -39,8 +39,14 @@ function App() {
         cancel={cancel}
       />
       <Header />
-      <div className="flex justify-center items-center">
-        <div className="components w-full md:w-[600px] bg-[#fff] mx-auto min-h-[600px] md:min-h-[500px shadow-lg">
+      <div
+        className="flex justify-center items-start"
+        style={{ paddingTop: "120px" }}
+      >
+        <div
+          className="components w-full md:w-[600px] bg-white mx-auto shadow-lg h-[600px] overflow-y-auto"
+          style={{ borderRadius: "5px", padding: "24px" }}
+        >
           <Form addItem={addItem} />
           <Section />
           <PackingList

@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="flex justify-center items-center p-4">
+    <div className="fixed top-0 left-0 w-full z-50 flex justify-center items-center p-4 bg-none">
       <div
         className="flex items-center space-x-4"
         style={{ marginTop: "25px" }}
