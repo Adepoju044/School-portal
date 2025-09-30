@@ -44,7 +44,7 @@ function App() {
         style={{ paddingTop: "120px" }}
       >
         <div
-          className="w-full md:w-[600px] bg-white mx-auto shadow-lg h-[600px] overflow-y-auto"
+          className="fixed top-[120px] left-1/2 transform -translate-x-1/2 w-full md:w-[600px] bg-white mx-auto shadow-lg h-[600px] overflow-y-auto"
           style={{ borderRadius: "5px", padding: "24px" }}
         >
           <Form addItem={addItem} />
