@@ -14,7 +14,7 @@ export default function Edit({
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
       <div
-        className="fixed top-1/2 left-1/2 shadow-2xl rounded-md transform -translate-x-1/2 -translate-y-1/2 z-50 bg-white  w-96 h-[280px] "
+        className="fixed top-1/2 left-1/2 shadow-2xl rounded-md transform -translate-x-1/2 -translate-y-1/2 z-100 bg-white  w-96 h-[280px] "
         style={{ padding: "10px" }}
       >
         <h1

@@ -38,14 +38,9 @@ function App() {
         items={listItem}
         cancel={cancel}
       />
-      <div className="fixed top-0 left-0 right-0 z-10">
-        <Header />
-      </div>
-      <div
-        className="flex justify-center items-start h-full overflow-auto"
-        style={{ paddingTop: "64px" }}
-      >
-        <div className="components w-full md:w-[600px] bg-[#fff] mx-auto min-h-[560px] md:min-h-[580px] shadow-lg fixed top-[15%]">
+      <Header />
+      <div className="flex justify-center items-center">
+        <div className="components w-full md:w-[600px] bg-[#fff] mx-auto min-h-[600px] md:min-h-[500px shadow-lg">
           <Form addItem={addItem} />
           <Section />
           <PackingList
