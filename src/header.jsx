@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <div className="flex justify-center items-center p-4 sticky">
+    <div className="flex justify-center items-center p-4 sticky overflow-hidden">
       <div
-        className="flex items-center space-x-4"
+        className="flex items-center space-x-4 sticky overflow-hidden"
         style={{ marginTop: "25px" }}
       >
         <img
