@@ -39,8 +39,8 @@ function App() {
         cancel={cancel}
       />
       <Header />
-      <div className="flex justify-center items-center fixed overflow-hidden">
-        <div className="components w-full md:w-[600px] bg-[#fff] mx-auto min-h-[600px] md:min-h-[500px] shadow-lg fixed">
+      <div className="flex justify-center items-center  overflow-hidden">
+        <div className="components w-full md:w-[600px] bg-[#fff] mx-auto min-h-[560px] md:min-h-[580px] shadow-lg fixed top-[15%]">
           <Form addItem={addItem} />
           <Section />
           <PackingList
