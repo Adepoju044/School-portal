@@ -10,7 +10,8 @@ function Form({ addItem, listItem }) {
     const part = name.trim().split(/\s+/);
     if (part.length < 3) {
       window.alert("Please enter your first, middle, and last name.");
-      return;
+    } else if (part.length > 3) {
+      window.alert("Only input your first name, second name and last name");
     }
 
     const existingStudent = listItem.find((student) => student.email === email);
