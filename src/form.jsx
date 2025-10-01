@@ -1,7 +1,7 @@
 import { useState } from "react";
 import App from "./App.jsx";
 
-function Form({ addItem }) {
+function Form({ addItem, listItem }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   function handleSubmit(e) {
@@ -10,6 +10,13 @@ function Form({ addItem }) {
     const part = name.trim().split(/\s+/);
     if (part.length < 3) {
       window.alert("Please enter your first, middle, and last name.");
+      return;
+    }
+
+    const existingStudent = listItem.find((student) => student.email === email);
+
+    if (existingStudent) {
+      window.alert("This email is already being used!");
       return;
     }
 
