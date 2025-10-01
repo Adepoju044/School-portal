@@ -4,7 +4,7 @@ function List({ item, deleteList, handleEdit }) {
       className="flex gap-4 border-b-2 border-gray-300 items-center justify-between"
       style={{ marginTop: "10px", flexWrap: "nowrap", marginBottom: "15px" }}
     >
-      <div className="flex-col flex md:flex-row md:gap-4">
+      <div className="flex-col flex md:flex-row md:gap-4 ">
         <p style={{ flexWrap: "nowrap" }} className="whitespace-nowrap">
           {item.name}
         </p>
